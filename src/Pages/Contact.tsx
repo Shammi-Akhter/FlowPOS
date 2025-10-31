@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { RiTwitterXFill } from 'react-icons/ri';
 import { SlSocialFacebook, SlSocialLinkedin } from 'react-icons/sl';
 
