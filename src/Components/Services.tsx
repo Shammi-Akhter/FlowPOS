@@ -1,66 +1,89 @@
-import React from 'react';
-import { FaCashRegister, FaChartLine, FaMobileAlt, FaUtensils } from 'react-icons/fa';
+import React from "react";
+import {
+  FaCashRegister,
+  FaChartLine,
+  FaMobileAlt,
+  FaUtensils,
+  FaCloud,
+  FaUsersCog,
+} from "react-icons/fa";
 
-const Services = () => {
-    const services = [
-        {
-            id: 1,
-            icon: <FaUtensils size={40} className="text-emerald-500" />,
-            title: "Restaurant POS",
-            description:
-                "Manage orders, tables, and payments seamlessly. Optimize your restaurant workflow with real-time sales tracking.",
-        },
-        {
-            id: 2,
-            icon: <FaCashRegister size={40} className="text-emerald-500" />,
-            title: "Retail Management",
-            description:
-                "Track inventory, generate invoices, and monitor staff performance — all from one dashboard.",
-        },
-        {
-            id: 3,
-            icon: <FaChartLine size={40} className="text-emerald-500" />,
-            title: "Sales Analytics",
-            description:
-                "Get detailed reports and insights to make smarter business decisions with your sales and profit data.",
-        },
-        {
-            id: 4,
-            icon: <FaMobileAlt size={40} className="text-emerald-500" />,
-            title: "Multi-Device Access",
-            description:
-                "Access your POS system anytime, anywhere — on desktop, tablet, or mobile.",
-        },
-    ];
-    return (
-        <div>
-            <section id="services" className="py-16 bg-gray-50">
-                <div className="max-w-6xl mx-auto px-4 text-center">
-                    <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-                        Our <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">Services</span>
-                    </h2>
-                    <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-                        Streamline your business operations with our all-in-one Point of Sale solutions — built for restaurants, retail stores, and cafés.
-                    </p>
+const Solutions = () => {
+  const solutions = [
+    {
+      id: 1,
+      icon: <FaUtensils size={40} className="text-emerald-500" />,
+      title: "Restaurant POS",
+      description:
+        "Manage tables, orders, and payments effortlessly. Deliver faster service and improve customer satisfaction.",
+    },
+    {
+      id: 2,
+      icon: <FaCashRegister size={40} className="text-emerald-500" />,
+      title: "Retail Management",
+      description:
+        "Simplify billing, stock tracking, and staff monitoring—all from a single, intuitive dashboard.",
+    },
+    {
+      id: 3,
+      icon: <FaChartLine size={40} className="text-emerald-500" />,
+      title: "Sales Insights",
+      description:
+        "Visualize key metrics and identify trends with in-depth analytics and real-time performance reports.",
+    },
+    {
+      id: 4,
+      icon: <FaMobileAlt size={40} className="text-emerald-500" />,
+      title: "Multi-Device Access",
+      description:
+        "Stay connected anywhere with seamless access across desktop, tablet, and mobile devices.",
+    },
+    {
+      id: 5,
+      icon: <FaCloud size={40} className="text-emerald-500" />,
+      title: "Cloud Backup",
+      description:
+        "Your business data is automatically backed up on secure cloud servers to prevent loss and ensure continuity.",
+    },
+    {
+      id: 6,
+      icon: <FaUsersCog size={40} className="text-emerald-500" />,
+      title: "Team Management",
+      description:
+        "Assign roles, track performance, and enhance collaboration among your staff with built-in management tools.",
+    },
+  ];
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {services.map((service) => (
-                            <div
-                                key={service.id}
-                                className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition duration-300"
-                            >
-                                <div className="flex justify-center mb-4">{service.icon}</div>
-                                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                                    {service.title}
-                                </h3>
-                                <p className="text-gray-500 text-sm">{service.description}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+  return (
+    <section id="solutions" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
+      <div className="max-w-7xl mx-auto px-6 text-center">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-4">
+          Smart <span className="text-emerald-500">Solutions</span> for Modern Businesses
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
+          Discover a suite of tools designed to simplify operations, boost efficiency,
+          and drive growth — all from one powerful platform.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {solutions.map((item) => (
+            <div
+              key={item.id}
+              className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-8 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
+            >
+              <div className="flex justify-center mb-5">{item.icon}</div>
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+                {item.title}
+              </h3>
+              <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                {item.description}
+              </p>
+            </div>
+          ))}
         </div>
-    );
+      </div>
+    </section>
+  );
 };
 
-export default Services;
+export default Solutions;

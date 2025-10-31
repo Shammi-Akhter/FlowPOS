@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div className="bg-white dark:bg-gray-800 pt-20" id="pricing">
+        <div className="bg-white dark:bg-gray-800 pt-20" id="pricing md:mb-32">
             <div className="relative mx-auto max-w-7xl px-6 text-center lg:px-8 mb-10">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
                     
@@ -46,10 +46,13 @@ const Pricing = () => {
                                 Basic (For individuals)
                             </h3>
                             <div className="mt-4 flex items-baseline text-5xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
-                                $0
+                                $49
+                                 <span className="text-lg font-semibold leading-8 tracking-normal text-gray-500 dark:text-gray-400">
+                                    /month
+                                </span>
                             </div>
                             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-300">
-                                Great for getting started. Sign your first two documents for free.
+                                Designed for essential day-to-day needs for independent retailers.
                             </p>
                         </div>
 
@@ -57,10 +60,10 @@ const Pricing = () => {
                             <div className="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 dark:bg-gray-700 p-6 sm:p-8">
                                 <ul className="space-y-6">
                                     {[
-                                        "1 document",
-                                        "10 signees / document",
-                                        "Customize signatory name and role",
-                                        "No credit card required",
+                                        "Retail POS",
+                                        "Inventory Management",
+                                        "24/7 Chat Support",
+                                        "Onboarding and professional service options",
                                     ].map((feature, i) => (
                                         <li key={i} className="flex items-start">
                                             <svg
@@ -94,7 +97,7 @@ const Pricing = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 shadow-xl ring-1 ring-black/10">
+                    <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 border border-emerald-500 shadow-xl ring-1 ring-black/10  hover:scale-105 transform transition duration-300">
                         <div className="p-8 sm:p-10">
                             <div className="flex items-center">
                                 <h3
@@ -108,23 +111,23 @@ const Pricing = () => {
                                 </p>
                             </div>
                             <div className="mt-4 flex items-baseline text-5xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
-                                $5
+                                $99
                                 <span className="text-lg font-semibold leading-8 tracking-normal text-gray-500 dark:text-gray-400">
                                     /month
                                 </span>
                             </div>
                             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-300">
-                                Need higher quotas? Upgrade and sign up to 10 documents.
+                           Ideal for retailers seeking management tools to facilitate business growth
                             </p>
                         </div>
                         <div className="flex flex-1 flex-col p-2">
                             <div className="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 dark:bg-gray-700 p-6 sm:p-8">
                                 <ul className="space-y-6">
                                     {[
-                                        "10 documents",
-                                        "100 signees / document",
-                                        "Export your signed documents",
-                                        "Shared team accounts",
+                                        "Built-in FlowPOS eCommerce",
+                                        "Advanced sales, staff and inventory reports",
+                                        "Onboarding and professional service options",
+                                        "24/7 Chat Support",
                                     ].map((feature, i) => (
                                         <li key={i} className="flex items-start">
                                             <svg
@@ -170,8 +173,7 @@ const Pricing = () => {
                                 Contact us
                             </div>
                             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-300">
-                                Are you a business looking for higher quotas or custom features?
-                                We can work with you to develop a solution.
+                                Tailored for advanced customization and ease of scalability in established retail operations.
                             </p>
                         </div>
 
@@ -179,10 +181,10 @@ const Pricing = () => {
                             <div className="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 dark:bg-gray-700 p-6 sm:p-8">
                                 <ul className="space-y-6">
                                     {[
-                                        "Custom usage quotas",
-                                        "Customized document signing workflows",
-                                        "Integration with third-party systems",
-                                        "Dedicated account manager & priority support",
+                                        "Advanced sales, staff and inventory reports",
+                                        "Insights (Forecasting, order recommendations & custom reporting)",
+                                        "Landed Costs",                                
+                                        "Custom User Roles",
                                     ].map((feature, i) => (
                                         <li key={i} className="flex items-start">
                                             <svg
@@ -207,7 +209,7 @@ const Pricing = () => {
                                 </ul>
                                 <div className="mt-8">
                                     <a
-                                        href="#"
+                                        href="/contact"
                                         className="inline-block w-full rounded-lg bg-emerald-500 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-emerald-600 dark:hover:bg-teal-500"
                                     >
                                         Contact us

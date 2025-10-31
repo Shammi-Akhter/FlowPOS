@@ -10,61 +10,46 @@ const faqs: FAQItem[] = [
     question: "How do I create an account?",
     answer: (
       <p className="text-gray-600">
-        To create an account, click on the "Sign Up" button at the top right
-        corner of our website. You'll need to provide your email address,
-        create a password, and fill in some basic information. After
-        verification, your account will be ready to use.
+        To create an account, click on the "Register" button at the top right
+        corner of our website. You'll need to provide your name, email address and
+        a password to submit or you will continue with Google or Facebook.
       </p>
     ),
   },
   {
-    question: "What payment methods do you accept?",
+    question: "What is this POS solution about?",
     answer: (
       <>
         <p className="text-gray-600 mb-3">
-          We accept all major credit cards including Visa, MasterCard, American
-          Express, and Discover. We also support payments through PayPal and
-          bank transfers for certain plans.
+          
+          Our POS (Point of Sale) system is a cloud-based platform that helps restaurants, retail stores, and cafés manage sales, inventory, and customer data in one place — all accessible from any device.
         </p>
-        <ul className="list-disc pl-5 text-gray-600">
-          <li>Credit/Debit Cards</li>
-          <li>PayPal</li>
-          <li>Bank Transfers (for annual plans)</li>
-        </ul>
+        
       </>
     ),
   },
   {
-    question: "Can I cancel my subscription anytime?",
+    question: "Can I use this POS system on mobile and tablet?",
     answer: (
       <p className="text-gray-600">
-        Yes, you can cancel your subscription at any time. If you cancel during
-        your billing period, you'll continue to have access to our services
-        until the end of that period. We don't charge any cancellation fees.
+        Yes! The entire platform is responsive and optimized for mobile, tablet, and desktop devices, so you can manage your business on the go.
       </p>
     ),
   },
   {
-    question: "How do I reset my password?",
+    question: "How secure is my data?",
     answer: (
       <>
-        <p className="text-gray-600 mb-3">To reset your password:</p>
-        <ol className="list-decimal pl-5 text-gray-600 space-y-2">
-          <li>Go to the login page and click "Forgot password"</li>
-          <li>Enter the email address associated with your account</li>
-          <li>Check your email for a password reset link</li>
-          <li>Click the link and follow the instructions to create a new password</li>
-        </ol>
+        <p className="text-gray-600 mb-3">Your data is protected with end-to-end encryption and hosted on secure cloud servers. We follow the latest security standards to ensure your business information stays private.</p>
+  
       </>
     ),
   },
   {
-    question: "Is there a mobile app available?",
+    question: "What kind of customer support do you provide?",
     answer: (
       <p className="text-gray-600">
-        Yes! We have mobile apps available for both iOS and Android devices. You
-        can download them from the App Store or Google Play Store. All your data
-        will sync automatically between the web version and mobile apps.
+       We provide 24/7 support via live chat, email, and our Help Center. Our team is always ready to assist with setup, troubleshooting, or customization.
       </p>
     ),
   },
@@ -84,8 +69,7 @@ const FAQ: React.FC = () => {
 
   return (
     <div className="bg-gray-50 font-sans py-12 px-4" id="faq">
-      <div className="container mx-auto max-w-4xl">
-        {/* Header */}
+      <div className="container mx-auto max-w-4xl">  
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-emerald-500 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">
             Frequently Asked Questions
@@ -94,8 +78,6 @@ const FAQ: React.FC = () => {
             Find answers to common questions about our products and services.
           </p>
         </div>
-
-        {/* Search Bar */}
         <div className="mb-10">
           <div className="relative max-w-xl mx-auto">
             <input
@@ -110,8 +92,6 @@ const FAQ: React.FC = () => {
             </button>
           </div>
         </div>
-
-        {/* Categories (static UI only) */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
           {["All", "Account", "Billing", "Features", "Support"].map((cat, i) => (
             <button
@@ -126,8 +106,6 @@ const FAQ: React.FC = () => {
             </button>
           ))}
         </div>
-
-        {/* FAQ Items */}
         <div className="space-y-4">
           {filteredFaqs.map((faq, index) => (
             <div
@@ -153,8 +131,6 @@ const FAQ: React.FC = () => {
             </div>
           ))}
         </div>
-
-        {/* Contact Support */}
         <div className="mt-16 text-center bg-indigo-50 rounded-xl p-8">
           <h2 className="text-2xl font-bold text-emerald-600  mb-3">
             Still have questions?
