@@ -35,15 +35,10 @@ export default function HeroSection() {
         }
       `}</style>
 
-      <section className="hero-section relative overflow-hidden bg-slate-50 text-slate-900 mb-10">
-        {/* Background gradient */}
+      <section className="hero-section relative overflow-hidden bg-slate-50 text-slate-900 ">  
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-slate-50 to-emerald-50 -z-10"></div>
-
-       
-        {/* Main content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Left content */}
             <div className="text-center md:text-left">
               <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-black uppercase rounded-full bg-emerald-100 mb-4">
                 Drive More Sales
@@ -53,7 +48,7 @@ export default function HeroSection() {
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">Sell and Grow</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
-                “From seamless transactions to powerful analytics, Kirrhosoft gives you everything you need to run your business smarter — anytime, anywhere.”
+                “From seamless transactions to powerful analytics, FlowPOS gives you everything you need to run your business smarter — anytime, anywhere.”
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
@@ -88,8 +83,6 @@ export default function HeroSection() {
                 </div>
               </div>
             </div>
-
-            {/* Right content - Illustration */}
             <div className="relative">
               <div className="relative max-w-md mx-auto">
                 <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-100 rounded-2xl animate-float" style={{ zIndex: 0 }}></div>

@@ -94,7 +94,7 @@ const TestimonialsCarousel: React.FC = () => {
     <div className="py-16 bg-gray-50">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
+          <h2 className="mb-4 text-3xl font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">
             What Users Are Saying
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-gray-600">

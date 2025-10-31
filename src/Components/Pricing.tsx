@@ -3,17 +3,14 @@ import React from 'react';
 const Pricing = () => {
     return (
         <div className="bg-white dark:bg-gray-800 pt-20" id="pricing">
-            {/* Header */}
             <div className="relative mx-auto max-w-7xl px-6 text-center lg:px-8 mb-10">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
                     
-                    <p className="mt-2 text-4xl font-bold tracking-tight text-emerald-500 dark:text-gray-200">
-                        Find the right plan for your business!!
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-black dark:text-gray-200">
+                         <span className='bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500'>Find the right plan for your</span>  business!!
                     </p>
                 </div>
-            </div>
-
-            {/* Toggle */}
+            </div>          
             <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-6">
                 <div className="mt-16 flex justify-center">
                     <div className="flex items-center">
@@ -38,12 +35,8 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Pricing Cards */}
             <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-7xl lg:grid-cols-3 lg:gap-8">
-
-                    {/* Basic Plan */}
                     <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 shadow-xl ring-1 ring-black/10">
                         <div className="p-8 sm:p-10">
                             <h3
@@ -101,8 +94,6 @@ const Pricing = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Plus Plan */}
                     <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 shadow-xl ring-1 ring-black/10">
                         <div className="p-8 sm:p-10">
                             <div className="flex items-center">
@@ -126,7 +117,6 @@ const Pricing = () => {
                                 Need higher quotas? Upgrade and sign up to 10 documents.
                             </p>
                         </div>
-
                         <div className="flex flex-1 flex-col p-2">
                             <div className="flex flex-1 flex-col justify-between rounded-2xl bg-gray-50 dark:bg-gray-700 p-6 sm:p-8">
                                 <ul className="space-y-6">
@@ -168,8 +158,6 @@ const Pricing = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Custom Plan */}
                     <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 shadow-xl ring-1 ring-black/10">
                         <div className="p-8 sm:p-10">
                             <h3

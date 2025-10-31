@@ -87,7 +87,7 @@ const FAQ: React.FC = () => {
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-emerald-500 mb-4">
+          <h1 className="text-4xl font-bold text-emerald-500 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-gray-600">
