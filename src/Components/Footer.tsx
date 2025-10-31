@@ -61,7 +61,7 @@ const Footer = () => {
               </svg>
             </a>
             <span className="text-gray-400 block">
-              © <a href="https://pagedone.io/">pagedone</a> 2024, All rights reserved.
+              © <a href="https://pagedone.io/">FlowPOS</a> 2024, All rights reserved.
             </span>
             <div className="flex mt-4 space-x-4 sm:justify-center sm:mt-0">
               <a href="#" className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600">

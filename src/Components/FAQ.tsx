@@ -87,7 +87,7 @@ const FAQ: React.FC = () => {
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-indigo-700 mb-4">
+          <h1 className="text-4xl font-bold text-emerald-500 mb-4">
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-gray-600">
@@ -118,8 +118,8 @@ const FAQ: React.FC = () => {
               key={i}
               className={`px-4 py-2 rounded-full transition ${
                 i === 0
-                  ? "bg-indigo-600 text-white hover:bg-indigo-700"
-                  : "bg-white text-indigo-600 border border-indigo-600 hover:bg-indigo-50"
+                  ? "bg-emerald-500 text-white hover:bg-emerald-600"
+                  : "bg-white text-emerald-500 border border-emerald-500 hover:bg-emerald-50"
               }`}
             >
               {cat}
@@ -156,14 +156,14 @@ const FAQ: React.FC = () => {
 
         {/* Contact Support */}
         <div className="mt-16 text-center bg-indigo-50 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-indigo-700 mb-3">
+          <h2 className="text-2xl font-bold text-emerald-600  mb-3">
             Still have questions?
           </h2>
           <p className="text-gray-600 mb-6">
             Our support team is happy to help you with any other questions you
             might have.
           </p>
-          <button className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition font-medium">
+          <button className="px-6 py-3 bg-gradient-to-r from-black to-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition font-medium">
             Contact Support
           </button>
         </div>

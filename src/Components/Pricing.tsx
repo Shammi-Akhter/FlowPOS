@@ -6,10 +6,8 @@ const Pricing = () => {
             {/* Header */}
             <div className="relative mx-auto max-w-7xl px-6 text-center lg:px-8 mb-10">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
-                    <h2 className="text-lg font-semibold leading-8 text-emerald-500 dark:text-emerald-400">
-                        Pricing
-                    </h2>
-                    <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
+                    
+                    <p className="mt-2 text-4xl font-bold tracking-tight text-emerald-500 dark:text-gray-200">
                         Find the right plan for your business!!
                     </p>
                 </div>
@@ -20,7 +18,7 @@ const Pricing = () => {
                 <div className="mt-16 flex justify-center">
                     <div className="flex items-center">
                         <button
-                            className="bg-teal-600 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-teal-600 focus:ring-offset-2"
+                            className="bg-emerald-500 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
                             role="switch"
                             aria-checked="true"
                         >
@@ -49,7 +47,7 @@ const Pricing = () => {
                     <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 shadow-xl ring-1 ring-black/10">
                         <div className="p-8 sm:p-10">
                             <h3
-                                className="text-lg font-semibold leading-8 tracking-tight text-teal-600 dark:text-teal-400"
+                                className="text-lg font-semibold leading-8 tracking-tight text-emerald-500 dark:text-teal-400"
                                 id="tier-basic"
                             >
                                 Basic (For individuals)
@@ -95,7 +93,7 @@ const Pricing = () => {
                                 <div className="mt-8">
                                     <a
                                         href="#"
-                                        className="inline-block w-full rounded-lg bg-teal-600 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-teal-700 dark:hover:bg-teal-500"
+                                        className="inline-block w-full rounded-lg bg-emerald-500 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-emerald-600 dark:hover:bg-teal-500"
                                     >
                                         Get started today
                                     </a>
@@ -109,12 +107,12 @@ const Pricing = () => {
                         <div className="p-8 sm:p-10">
                             <div className="flex items-center">
                                 <h3
-                                    className="text-lg font-semibold leading-8 tracking-tight text-teal-600 dark:text-teal-400"
+                                    className="text-lg font-semibold leading-8 tracking-tight text-emerald-500 dark:text-teal-400"
                                     id="tier-plus"
                                 >
                                     Plus (For teams)
                                 </h3>
-                                <p className="ml-2 rounded-full bg-teal-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-teal-600 dark:bg-teal-400/10 dark:text-teal-400">
+                                <p className="ml-2 rounded-full bg-teal-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-emerald-500 dark:bg-teal-400/10 dark:text-teal-400">
                                     45% OFF
                                 </p>
                             </div>
@@ -162,7 +160,7 @@ const Pricing = () => {
                                 <div className="mt-8">
                                     <a
                                         href="#"
-                                        className="inline-block w-full rounded-lg bg-teal-600 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-teal-700 dark:hover:bg-teal-500"
+                                        className="inline-block w-full rounded-lg bg-emerald-500 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-emerald-600 dark:hover:bg-teal-500"
                                     >
                                         Get started today
                                     </a>
@@ -175,7 +173,7 @@ const Pricing = () => {
                     <div className="flex flex-col rounded-3xl bg-white dark:bg-gray-900 shadow-xl ring-1 ring-black/10">
                         <div className="p-8 sm:p-10">
                             <h3
-                                className="text-lg font-semibold leading-8 tracking-tight text-teal-600 dark:text-teal-400"
+                                className="text-lg font-semibold leading-8 tracking-tight text-emerald-500 dark:text-teal-400"
                                 id="tier-custom"
                             >
                                 Custom (For enterprises)
@@ -222,7 +220,7 @@ const Pricing = () => {
                                 <div className="mt-8">
                                     <a
                                         href="#"
-                                        className="inline-block w-full rounded-lg bg-teal-600 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-teal-700 dark:hover:bg-teal-500"
+                                        className="inline-block w-full rounded-lg bg-emerald-500 dark:bg-teal-400 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-emerald-600 dark:hover:bg-teal-500"
                                     >
                                         Contact us
                                     </a>
