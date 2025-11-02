@@ -71,7 +71,7 @@ const Partner = () => {
             </motion.p>
 
             <motion.a
-              href="/contact"
+              href="#"
               className="inline-block text-white px-6 py-3 rounded-full font-medium transition bg-gradient-to-r from-black to-emerald-500 hover:opacity-90"
               variants={buttonReveal}
               whileHover={{ y: -2 }}
@@ -102,7 +102,7 @@ const Partner = () => {
             </motion.p>
 
             <motion.a
-              href="/contact"
+              href="#"
               className="inline-block text-white px-6 py-3 rounded-full font-medium transition bg-gradient-to-r from-black to-emerald-500 hover:opacity-90"
               variants={buttonReveal}
               whileHover={{ y: -2 }}
