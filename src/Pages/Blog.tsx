@@ -6,8 +6,7 @@ const Blog = () => {
             <div className="absolute inset-0">
                 <div className="h-1/3 bg-white sm:h-2/3"></div>
             </div>
-            <div className="relative mx-auto max-w-7xl">
-                {/* Section Header */}
+            <div className="relative mx-auto max-w-7xl">             
                 <div className="text-center">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                         Column me neatly.
@@ -16,33 +15,29 @@ const Blog = () => {
                         This is your life and it's ending one minute @ a time...
                     </p>
                 </div>
-
-                {/* Articles Grid */}
                 <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-                    {/* Card 1 */}
+                    
                     <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
                         <div className="flex-shrink-0">
                             <img
                                 className="h-48 w-full object-cover"
-                                src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&auto=format&fit=crop&w=1679&q=80"
+                                src="/images/smart.png"
                                 alt="Boost conversion rate"
                             />
                         </div>
                         <div className="flex flex-1 flex-col justify-between bg-white p-6">
                             <div className="flex-1">
-                                <p className="text-sm font-medium text-indigo-600">
+                                <p className="text-sm font-medium text-emerald-500">
                                     <a href="#" className="hover:underline">
-                                        Article
+                                        Smart POS, anywhere
                                     </a>
                                 </p>
                                 <a href="#" className="mt-2 block">
                                     <p className="text-xl font-semibold text-gray-900">
-                                        Boost your conversion rate
+                                        Deliver orders, print receipts, and sync inventory in real time across tablets, phones, and desktops.
                                     </p>
                                     <p className="mt-3 text-base text-gray-500">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Architecto accusantium praesentium eius, ut atque fuga
-                                        culpa, similique sequi cum eos quis dolorum.
+                                        Accept cards, QR, and wallets with offline mode that auto-syncs when back online.One dashboard tracks sales, tips, taxes, and employee shifts in seconds.
                                     </p>
                                 </a>
                             </div>
@@ -72,32 +67,27 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Card 2 */}
                     <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
                         <div className="flex-shrink-0">
                             <img
                                 className="h-48 w-full object-cover"
-                                src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1679&q=80"
+                                src="/images/inventory.webp"
                                 alt="SEO for sales"
                             />
                         </div>
                         <div className="flex flex-1 flex-col justify-between bg-white p-6">
                             <div className="flex-1">
-                                <p className="text-sm font-medium text-indigo-600">
+                                <p className="text-sm font-medium text-emerald-500">
                                     <a href="#" className="hover:underline">
-                                        Video
+                                       Inventory that updates itself
                                     </a>
                                 </p>
                                 <a href="#" className="mt-2 block">
                                     <p className="text-xl font-semibold text-gray-900">
-                                        How to use search engine optimization to drive sales
+                                        Stop stockouts and overordering with live counts that follow every sale.
                                     </p>
                                     <p className="mt-3 text-base text-gray-500">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                                        facilis asperiores porro quaerat doloribus, eveniet dolore.
-                                        Adipisci tempora aut inventore optio animi., tempore temporibus
-                                        quo laudantium.
+                                        Low‑stock alerts, variants, and batch/expiry tracking for kitchens and retail shelves.Auto‑purchase orders to preferred vendors keep your bestsellers always available.
                                     </p>
                                 </a>
                             </div>
@@ -119,7 +109,7 @@ const Blog = () => {
                                         </a>
                                     </p>
                                     <div className="flex space-x-1 text-sm text-gray-500">
-                                        <time dateTime="2020-03-10">Mar 10, 2020</time>
+                                        <time dateTime="2020-03-10">Mar 10, 2022</time>
                                         <span aria-hidden="true">·</span>
                                         <span>4 min read</span>
                                     </div>
@@ -127,31 +117,27 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Card 3 */}
                     <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
                         <div className="flex-shrink-0">
                             <img
                                 className="h-48 w-full object-cover"
-                                src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1679&q=80"
+                                src="/images/insights.png"
                                 alt="Customer experience"
                             />
                         </div>
                         <div className="flex flex-1 flex-col justify-between bg-white p-6">
                             <div className="flex-1">
-                                <p className="text-sm font-medium text-indigo-600">
+                                <p className="text-sm font-medium text-emerald-500">
                                     <a href="#" className="hover:underline">
-                                        Case Study
+                                        Insights that grow revenue
                                     </a>
                                 </p>
                                 <a href="#" className="mt-2 block">
                                     <p className="text-xl font-semibold text-gray-900">
-                                        Improve your customer experience
+                                      Turn daily transactions into actions that boost margins and repeat visits.
                                     </p>
                                     <p className="mt-3 text-base text-gray-500">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                                        harum rerum voluptatem quo recusandae magni placeat saepe
-                                        molestiae, sed excepturi cumque corporis perferendis hic.
+                                       Visual KPIs for peak hours, menu/items, staff performance, and customer cohorts.Set promos and loyalty rules, then watch AOV and retention climb from the dashboard.
                                     </p>
                                 </a>
                             </div>
@@ -173,7 +159,7 @@ const Blog = () => {
                                         </a>
                                     </p>
                                     <div className="flex space-x-1 text-sm text-gray-500">
-                                        <time dateTime="2020-02-12">Feb 12, 2020</time>
+                                        <time dateTime="2020-02-12">Feb 12, 2024</time>
                                         <span aria-hidden="true">·</span>
                                         <span>11 min read</span>
                                     </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 interface FAQItem {
   question: string;
   answer: React.ReactNode;
@@ -56,7 +57,8 @@ const faqs: FAQItem[] = [
   },
 ];
 
-const FAQ: React.FC = () => {
+const FAQ: React.FC = () => { 
+  
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [search, setSearch] = useState("");
 

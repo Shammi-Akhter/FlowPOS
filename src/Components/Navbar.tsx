@@ -18,7 +18,7 @@ const Navbar = () => {
     const scrollToSection = () => {
       const element = document.getElementById(sectionId);
       if (element) {
-        const yOffset = -80; // adjust scroll offset for navbar height
+        const yOffset = -80; 
         const y =
           element.getBoundingClientRect().top + window.scrollY + yOffset;
         window.scrollTo({ top: y, behavior: "smooth" });
@@ -79,7 +79,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/blog"
+                  to="/blog" onClick={() => window.scrollTo(0, 0)}
                   className="text-black transition hover:text-emerald-500"
                 >
                   Blog

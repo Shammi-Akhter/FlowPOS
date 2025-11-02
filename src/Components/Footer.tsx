@@ -93,19 +93,9 @@ const Footer = () => {
             <h4 className="text-xl text-white font-bold mb-7">Resources</h4>
             <ul className="text-lg transition-all duration-500">
               <li className="mb-6">
-                <Link to="/faq" className="text-gray-400 hover:text-white">FAQs</Link>
+                <Link to="/faq" onClick={() => window.scrollTo(0, 0)} className="text-gray-400 hover:text-white">FAQs</Link>
               </li>
-              <li className="mb-6">
-                <a
-                  href="/update"
-                  className="text-gray-400 hover:text-white"
-                >
-                  Quick Start
-                </a>
-              </li>
-              <li className="mb-6">
-                <Link to="/update" className="text-gray-400 hover:text-white">Documentation</Link>
-              </li>
+              
               <li className="mb-6">
                 <Link to="/update" className="text-gray-400 hover:text-white">User Guide</Link>
               </li>
@@ -123,13 +113,13 @@ const Footer = () => {
               </li>
       
               <li className="mb-6">
-                <Link to="/licence" className="text-gray-400 hover:text-white">License</Link>
+                <Link to="/licence" onClick={() => window.scrollTo(0, 0)} className="text-gray-400 hover:text-white">License</Link>
               </li>
               <li className="mb-6">
-                <Link to="/terms" className="text-gray-400 hover:text-white">Terms & Conditions</Link>
+                <Link to="/terms" onClick={() => window.scrollTo(0, 0)} className="text-gray-400 hover:text-white">Terms & Conditions</Link>
               </li>
               <li className="mb-0">
-                <Link to="/privacy" className="text-gray-400 hover:text-white">Privacy Policy</Link>
+                <Link to="/privacy" onClick={() => window.scrollTo(0, 0)} className="text-gray-400 hover:text-white">Privacy Policy</Link>
               </li>
             </ul>
           </div>
