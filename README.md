@@ -10,11 +10,13 @@ A modern, responsive landing page for a Point of Sale (POS) SaaS product designe
 ## 📸 Screenshots
 
 
-![Hero Section](screenshots/hero.png)
-![Features Section](screenshots/feature.png)
-![Pricing Section](screenshots/prices.png)
-![Pricing Section](screenshots/testimonial.png)
+![Hero Section](public/screenshots/hero.png
 
+![Features Section](public/screenshots/feature
+
+![Pricing Section](public/screenshots/prices
+
+![Testimonial Section](public/screenshots/testimonial
 
 
 ## ✨ Features
