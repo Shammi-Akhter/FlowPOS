@@ -1,12 +1,5 @@
 
-import {
-  FaCashRegister,
-  FaChartLine,
-  FaMobileAlt,
-  FaUtensils,
-  FaCloud,
-  FaUsersCog,
-} from "react-icons/fa";
+import {FaCashRegister,FaChartLine,FaMobileAlt,FaUtensils,FaCloud,FaUsersCog,} from "react-icons/fa";
 
 const Solutions = () => {
   const solutions = [
@@ -55,7 +48,7 @@ const Solutions = () => {
   ];
 
   return (
-    <section id="solutions" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
+    <section id="solutions" className="py-10 bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-black dark:text-white mb-4">
           Smart <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">Solutions for Modern</span>  Businesses

@@ -12,6 +12,9 @@ import Footer from "./Components/Footer";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import Partner from "./Components/Partner";
+import FAQ from "./Components/FAQ";
+import Update from "./Pages/FutureUpdate";
+import FutureUpdate from "./Pages/FutureUpdate";
 
 function App() {
   return (
@@ -35,11 +38,15 @@ function App() {
             </>
           }
         />
+
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/faq" element={<FAQ/>} />
+        <Route path="/future_update" element={<FutureUpdate/>} />
+        <Route path="/update" element={<Update/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       

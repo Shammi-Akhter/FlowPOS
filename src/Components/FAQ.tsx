@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 interface FAQItem {
   question: string;
@@ -21,10 +22,10 @@ const faqs: FAQItem[] = [
     answer: (
       <>
         <p className="text-gray-600 mb-3">
-          
+
           Our POS (Point of Sale) system is a cloud-based platform that helps restaurants, retail stores, and cafés manage sales, inventory, and customer data in one place — all accessible from any device.
         </p>
-        
+
       </>
     ),
   },
@@ -41,7 +42,7 @@ const faqs: FAQItem[] = [
     answer: (
       <>
         <p className="text-gray-600 mb-3">Your data is protected with end-to-end encryption and hosted on secure cloud servers. We follow the latest security standards to ensure your business information stays private.</p>
-  
+
       </>
     ),
   },
@@ -49,7 +50,7 @@ const faqs: FAQItem[] = [
     question: "What kind of customer support do you provide?",
     answer: (
       <p className="text-gray-600">
-       We provide 24/7 support via live chat, email, and our Help Center. Our team is always ready to assist with setup, troubleshooting, or customization.
+        We provide 24/7 support via live chat, email, and our Help Center. Our team is always ready to assist with setup, troubleshooting, or customization.
       </p>
     ),
   },
@@ -69,7 +70,7 @@ const FAQ: React.FC = () => {
 
   return (
     <div className="bg-gray-50 font-sans py-12 px-4" id="faq">
-      <div className="container mx-auto max-w-4xl">  
+      <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-emerald-500 mb-4 bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">
             Frequently Asked Questions
@@ -96,11 +97,10 @@ const FAQ: React.FC = () => {
           {["All", "Account", "Billing", "Features", "Support"].map((cat, i) => (
             <button
               key={i}
-              className={`px-4 py-2 rounded-full transition ${
-                i === 0
+              className={`px-4 py-2 rounded-full transition ${i === 0
                   ? "bg-emerald-500 text-white hover:bg-emerald-600"
                   : "bg-white text-emerald-500 border border-emerald-500 hover:bg-emerald-50"
-              }`}
+                }`}
             >
               {cat}
             </button>
@@ -120,9 +120,8 @@ const FAQ: React.FC = () => {
                   {faq.question}
                 </h3>
                 <i
-                  className={`fas fa-chevron-down text-indigo-600 transform transition-transform duration-300 ${
-                    activeIndex === index ? "rotate-180" : ""
-                  }`}
+                  className={`fas fa-chevron-down text-indigo-600 transform transition-transform duration-300 ${activeIndex === index ? "rotate-180" : ""
+                    }`}
                 ></i>
               </button>
               {activeIndex === index && (
@@ -139,12 +138,14 @@ const FAQ: React.FC = () => {
             Our support team is happy to help you with any other questions you
             might have.
           </p>
-          <button className="px-6 py-3 bg-gradient-to-r from-black to-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition font-medium">
+          <Link to="/contact">
+          <button className="px-6 py-3 cursor-pointer bg-gradient-to-r from-black to-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition font-medium">
             Contact Support
           </button>
-        </div>
+        </Link>
       </div>
     </div>
+    </div >
   );
 };
 
