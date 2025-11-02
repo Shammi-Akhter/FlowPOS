@@ -48,7 +48,7 @@ const Solutions = () => {
   ];
 
   return (
-    <section id="solutions" className="py-10 bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
+    <section id="solutions" className="py-10 bg-gray-50  transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-black dark:text-white mb-4">
           Smart <span className="bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500">Solutions for Modern</span>  Businesses
@@ -62,7 +62,7 @@ const Solutions = () => {
           {solutions.map((item) => (
             <div
               key={item.id}
-              className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-8 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
+              className="bg-white  rounded-2xl shadow-md p-8 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
             >
               <div className="flex justify-center mb-5">{item.icon}</div>
               <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">

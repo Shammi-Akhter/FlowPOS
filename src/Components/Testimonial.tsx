@@ -1,4 +1,6 @@
 import React from "react";
+import { FaHeart } from "react-icons/fa";
+import { LiaComments } from "react-icons/lia";
 import Slider from "react-slick";
 
 interface Testimonial {
@@ -121,8 +123,8 @@ const TestimonialsCarousel: React.FC = () => {
                 </div>
                 <p className="text-gray-700">{t.message}</p>
                 <div className="flex items-center mt-4 text-gray-500">
-                  <span className="mr-4">❤️ {t.likes}</span>
-                  <span className="mr-4">💬 {t.comments}</span>
+                  <span className="mr-4"><FaHeart /> {t.likes}</span>
+                  <span className="mr-4"><LiaComments /> {t.comments}</span>
                   <span className="text-sm">{t.time}</span>
                 </div>
               </div>
