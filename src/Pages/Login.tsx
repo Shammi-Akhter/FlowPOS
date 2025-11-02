@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
     return (
-        <div className='bg-white dark:bg-gray-800'>
+        <div className='bg-white '>
             <div className=" container mx-auto flex justify-center items-center w-screen h-screen p-5">
                 <div className="flex flex-col lg:flex-row w-full min-h-screen">
                     <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-tr from-black  to-emerald-700 justify-center items-center relative overflow-hidden">
