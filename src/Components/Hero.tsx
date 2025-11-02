@@ -37,8 +37,8 @@ export default function HeroSection() {
 
       <section className="hero-section relative overflow-hidden bg-slate-50 text-slate-900 ">  
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-slate-50 to-emerald-50 -z-10"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <div className="flex flex-col-reverse md:flex-row  justify-center gap-12 items-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-40 py-24 md:py-32">
+          <div className="flex flex-col-reverse md:flex-row  justify-between gap-12 items-center">
             <div className="text-center md:text-left">
               <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-black uppercase rounded-full bg-emerald-100 mb-4">
                 Drive More Sales
@@ -89,7 +89,7 @@ export default function HeroSection() {
                 <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-emerald-100 rounded-2xl animate-float-reverse" style={{ zIndex: 0 }}></div>
                 <img
                   className="relative rounded-xl shadow-2xl border-8 border-white"
-                  src="/images/hero.png"
+                  src="/images/hero.webp"
                   alt="Digital Marketing"
                   style={{ zIndex: 1 }}
                 />

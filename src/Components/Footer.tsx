@@ -70,12 +70,12 @@ const Footer = () => {
                 <Link to="/update" className="text-gray-400 hover:text-white">Menu Management</Link>
               </li>
               <li className="mb-6">
-                <a
-                  href="/update"
+                <Link
+                  to="/update"
                   className="text-gray-400 hover:text-white"
                 >
                Multi-Location
-                </a>
+                </Link>
               </li>
               <li className="mb-6">
                 <Link to="/update" className="text-gray-400 hover:text-white">Reports & Insights</Link>

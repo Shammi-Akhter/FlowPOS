@@ -4,15 +4,15 @@ const Blog = () => {
     return (
         <div className="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
             <div className="absolute inset-0">
-                <div className="h-1/3 bg-white sm:h-2/3"></div>
+               
             </div>
             <div className="relative mx-auto max-w-7xl">             
                 <div className="text-center">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Column me neatly.
+                        Elevate Your POS Workflow with FlowPOS
                     </h2>
                     <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-                        This is your life and it's ending one minute @ a time...
+                       Modern, secure, and lightning‑fast POS built for restaurants, retail, and cafes—simplify checkout, track sales in real time, and grow with data‑driven insights
                     </p>
                 </div>
                 <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
@@ -21,7 +21,7 @@ const Blog = () => {
                         <div className="flex-shrink-0">
                             <img
                                 className="h-48 w-full object-cover"
-                                src="/images/smart.png"
+                                src="/images/smart.webp"
                                 alt="Boost conversion rate"
                             />
                         </div>
@@ -40,6 +40,7 @@ const Blog = () => {
                                         Accept cards, QR, and wallets with offline mode that auto-syncs when back online.One dashboard tracks sales, tips, taxes, and employee shifts in seconds.
                                     </p>
                                 </a>
+                                <a href="https://encharge.io/saas-marketing-blogs/" target="_blank" className="text-emerald-500 font-medium"> Read More...</a>
                             </div>
                             <div className="mt-6 flex items-center">
                                 <div className="flex-shrink-0">
@@ -66,6 +67,7 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
                         <div className="flex-shrink-0">
@@ -90,6 +92,7 @@ const Blog = () => {
                                         Low‑stock alerts, variants, and batch/expiry tracking for kitchens and retail shelves.Auto‑purchase orders to preferred vendors keep your bestsellers always available.
                                     </p>
                                 </a>
+                                <a href="https://www.marketermilk.com/blog/best-saas-websites" target="_blank" className="text-emerald-500 font-medium"> Read More...</a>
                             </div>
                             <div className="mt-6 flex items-center">
                                 <div className="flex-shrink-0">
@@ -140,6 +143,7 @@ const Blog = () => {
                                        Visual KPIs for peak hours, menu/items, staff performance, and customer cohorts.Set promos and loyalty rules, then watch AOV and retention climb from the dashboard.
                                     </p>
                                 </a>
+                                <a href="https://www.posnation.com/blog" target="_blank" className="text-emerald-500 font-medium"> Read More...</a>
                             </div>
                             <div className="mt-6 flex items-center">
                                 <div className="flex-shrink-0">

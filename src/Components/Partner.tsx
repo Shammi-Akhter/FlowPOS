@@ -42,8 +42,6 @@ const Partner = () => {
   return (
     <section className="bg-gray-50 py-16 px-6 lg:px-16">
       <div className="container mx-auto">
-
-        {/* Row 1 */}
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 mb-16"
           variants={container}
@@ -83,17 +81,15 @@ const Partner = () => {
             </motion.a>
           </motion.div>
         </motion.div>
-
-        {/* Row 2 */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:pl-10 pl-0"
+          className="flex flex-col-reverse md:flex-row  justify-center  items-center gap-10 "
           variants={container}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3, margin: "0px 0px -80px 0px" }}
           style={{ willChange: "transform, opacity" }}
         >
-          <motion.div variants={container} className="space-y-4">
+          <motion.div variants={container} className="space-y-4 w-full lg:w-2/4">
             <motion.h1
               className="text-3xl md:text-4xl font-bold mb-0 bg-clip-text text-transparent bg-gradient-to-r from-black to-emerald-500"
               variants={fadeUp}

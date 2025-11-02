@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div className="mt-12 md:mt-0">
             <img
-              src="/images/About.png"
+              src="/images/About.webp"
               alt="About Us Image"
               className="object-cover rounded-lg shadow-md w-full h-96"
             />

@@ -120,9 +120,9 @@ const Register = () => {
 
                             <p className="mt-8 text-center text-sm text-gray-600">
                                 Already have an account?{" "}
-                                <a href="/login" className="font-medium text-emerald-500 hover:text-emerald-600">
+                                <Link to="/login" className="font-medium text-emerald-500 hover:text-emerald-600">
                                     Login
-                                </a>
+                                </Link>
                             </p>
                         </div>
                     </div>
