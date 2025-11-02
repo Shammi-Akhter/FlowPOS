@@ -11,6 +11,7 @@ import Services from "./Components/Services";
 import Footer from "./Components/Footer";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import Partner from "./Components/Partner";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
               <section id="services">
                 <Services />
               </section>
-              
+              <Partner />
               <TestimonialsCarousel />
               <section id="pricing">
                 <Pricing />
