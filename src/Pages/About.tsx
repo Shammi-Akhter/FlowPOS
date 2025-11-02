@@ -15,7 +15,7 @@ const About = () => {
             </p>
             <div className="mt-8">
               <a
-                href="https://kirrhosoft.com/" target="_blank"
+                href="/contact" target="_blank"
                 className="text-emerald-500 hover:text-emerald-600 font-medium"
               >
                 Learn more about us <span className="ml-2">&#8594;</span>

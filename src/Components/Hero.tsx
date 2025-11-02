@@ -38,7 +38,7 @@ export default function HeroSection() {
       <section className="hero-section relative overflow-hidden bg-slate-50 text-slate-900 ">  
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-slate-50 to-emerald-50 -z-10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col-reverse md:flex-row  justify-center gap-12 items-center">
             <div className="text-center md:text-left">
               <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-black uppercase rounded-full bg-emerald-100 mb-4">
                 Drive More Sales

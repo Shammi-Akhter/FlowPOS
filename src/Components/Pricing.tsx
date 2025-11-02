@@ -153,7 +153,7 @@ const Pricing = () => {
                                 <div className="mt-8">
                                     <a
                                         href="#"
-                                        className="inline-block w-full rounded-lg bg-emerald-50 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-emerald-600 "
+                                        className="inline-block w-full rounded-lg bg-emerald-500 px-4 py-2.5 text-center text-sm font-semibold leading-5 text-white shadow-md hover:bg-emerald-600 "
                                     >
                                         Get started today
                                     </a>

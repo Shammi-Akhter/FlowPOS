@@ -5,7 +5,7 @@ import { SlSocialFacebook, SlSocialLinkedin } from 'react-icons/sl';
 
 const Contact = () => {
     return (
-        <section className="my-6">
+        <section className="my-6 md:my-30">
             <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-black ">
                 <div>
                     <h1 className="text-3xl font-bold ">Let's Talk</h1>
