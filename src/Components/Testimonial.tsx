@@ -104,6 +104,7 @@ const TestimonialsCarousel: React.FC = () => {
           </p>
         </div>
 
+
         <Slider {...settings}>
           {testimonials.map((t, index) => (
             <div key={index} className="px-2">
