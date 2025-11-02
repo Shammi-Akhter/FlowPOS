@@ -7,7 +7,7 @@ const Contact = () => {
     return (
 <>
 
-        <div className="contactbg h-[calc(100vh-64px)] flex items-center justify-center">
+        <div className="contactbg lg:h-[calc(100vh-64px)] flex items-center justify-center">
             <section className="my-6 lg:my-0  ">
             <div className="relative grid sm:grid-cols-2 items-center justify-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-black  " >
              
