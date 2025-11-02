@@ -5,11 +5,17 @@ A modern, responsive landing page for a Point of Sale (POS) SaaS product designe
 
 ## 🚀 Live Demo
 
-[View Live Site]() <!-- Add your deployment URL here -->
+[View Live Site](https://flow-pos-six.vercel.app/) <!-- Add your deployment URL here -->
 
 ## 📸 Screenshots
 
-<!-- Add screenshots of your landing page here -->
+
+![Hero Section](screenshots/hero.png)
+![Features Section](screenshots/feature.png)
+![Pricing Section](screenshots/prices.png)
+![Pricing Section](screenshots/testimonial.png)
+
+
 
 ## ✨ Features
 
