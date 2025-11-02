@@ -15,6 +15,8 @@ import Partner from "./Components/Partner";
 import FAQ from "./Components/FAQ";
 import Update from "./Pages/FutureUpdate";
 import FutureUpdate from "./Pages/FutureUpdate";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import TermsAndCondition from "./Pages/TermsAndCondition";
 
 function App() {
   return (
@@ -47,6 +49,9 @@ function App() {
         <Route path="/faq" element={<FAQ/>} />
         <Route path="/future_update" element={<FutureUpdate/>} />
         <Route path="/update" element={<Update/>} />
+        <Route path="/privacy" element={<PrivacyPolicy/>} />
+        <Route path="/terms" element={<TermsAndCondition/>} />
+        
         <Route path="*" element={<NotFound />} />
       </Routes>
       
