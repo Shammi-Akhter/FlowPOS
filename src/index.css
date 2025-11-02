@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+.contactbg{
+  background-image: url("/images/contactbg.jpg"); 
+  background-size: cover;      
+  background-repeat: no-repeat; 
+   
+}

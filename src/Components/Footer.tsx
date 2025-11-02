@@ -132,7 +132,7 @@ const Footer = () => {
             </Link>
 
             <span className="text-gray-400 block">
-              © FlowPOS 2024, All rights reserved.
+              © FlowPOS 2025, All rights reserved.
             </span>
 
             <div className="flex mt-4 space-x-4 sm:justify-center sm:mt-0">
