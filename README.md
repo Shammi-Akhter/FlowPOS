@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# POS SaaS Landing Page
 
-Currently, two official plugins are available:
+A modern, responsive landing page for a Point of Sale (POS) SaaS product designed for restaurants, retail stores, and cafes. Built with React, TypeScript, and Tailwind CSS featuring smooth animations and micro-interactions[web:4][web:10].
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+[View Live Site](https://flow-pos-six.vercel.app/) <!-- Add your deployment URL here -->
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Hero Section](screenshots/hero.png)
+![Features Section](screenshots/feature.png)
+![Pricing Section](screenshots/prices.png)
+![Pricing Section](screenshots/testimonial.png)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Modern Design**: Clean, professional SaaS aesthetic with mobile-first responsive design (375px - 1440px)
+- **Smooth Animations**: Engaging micro-interactions and transitions using Framer Motion/GSAP
+- **TypeScript**: Fully typed for better developer experience and code reliability
+- **Performance Optimized**: Page loads under 3 seconds with zero console errors
+- **Fully Responsive**: Seamless experience across mobile, tablet, and desktop devices
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Page Sections
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Hero Section**: Compelling headline with clear value proposition and CTA
+- **Features Section**: Showcases 4-6 key POS features with icons and descriptions
+- **Social Proof**: Customer testimonials and trust indicators
+- **Pricing Section**: Three-tier pricing plans with clear comparisons
+- **Contact Form**: Simple inquiry form for potential customers
+- **Footer**: Complete with navigation links and social media icons
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) - UI library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety and better DX
+- [Vite](https://vitejs.dev/) - Fast build tool and dev server
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) / [GSAP](https://greensock.com/gsap/) - Animation library
+
+<!-- If using Astro, add it here -->
+
+## 🚦 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
