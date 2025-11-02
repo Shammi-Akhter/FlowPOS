@@ -67,22 +67,21 @@ const Footer = () => {
             <h4 className="text-xl text-white font-bold mb-7">Products</h4>
             <ul className="text-lg transition-all duration-500">
               <li className="mb-6">
-                <Link to="/update" className="text-gray-400 hover:text-white">Figma UI System</Link>
+                <Link to="/update" className="text-gray-400 hover:text-white">Menu Management</Link>
               </li>
               <li className="mb-6">
                 <a
-                  href="#quick-start"
-                  onClick={(e) => handleScrollLink(e, "quick-start")}
+                  href="/update"
                   className="text-gray-400 hover:text-white"
                 >
-                  Icons Asset
+               Multi-Location
                 </a>
               </li>
               <li className="mb-6">
-                <Link to="/update" className="text-gray-400 hover:text-white">Responsive Blocks</Link>
+                <Link to="/update" className="text-gray-400 hover:text-white">Reports & Insights</Link>
               </li>
               <li className="mb-6">
-                <Link to="/inupdate" className="text-gray-400 hover:text-white">Components Library</Link>
+                <Link to="/update" className="text-gray-400 hover:text-white">Components Library</Link>
               </li>
               <li className="mb-0">
                 <Link to="/future_update" className="text-gray-400 hover:text-white">Future Element</Link>
@@ -98,21 +97,20 @@ const Footer = () => {
               </li>
               <li className="mb-6">
                 <a
-                  href="#quick-start"
-                  onClick={(e) => handleScrollLink(e, "quick-start")}
+                  href="/update"
                   className="text-gray-400 hover:text-white"
                 >
                   Quick Start
                 </a>
               </li>
               <li className="mb-6">
-                <Link to="/docs" className="text-gray-400 hover:text-white">Documentation</Link>
+                <Link to="/update" className="text-gray-400 hover:text-white">Documentation</Link>
               </li>
               <li className="mb-6">
-                <Link to="/guide" className="text-gray-400 hover:text-white">User Guide</Link>
+                <Link to="/update" className="text-gray-400 hover:text-white">User Guide</Link>
               </li>
               <li className="mb-0">
-                <Link to="/plugins" className="text-gray-400 hover:text-white">Plugin Guide</Link>
+                <Link to="/update" className="text-gray-400 hover:text-white">Plugin Guide</Link>
               </li>
             </ul>
           </div>
@@ -121,13 +119,11 @@ const Footer = () => {
             <h4 className="text-xl text-white font-bold mb-7">Support</h4>
             <ul className="text-lg transition-all duration-500">
               <li className="mb-6">
-                <Link to="/support" className="text-gray-400 hover:text-white">Customer Support</Link>
+                <Link to="/contact" className="text-gray-400 hover:text-white">Customer Support</Link>
               </li>
+      
               <li className="mb-6">
-                <Link to="/cookies" className="text-gray-400 hover:text-white">Cookies</Link>
-              </li>
-              <li className="mb-6">
-                <Link to="/license" className="text-gray-400 hover:text-white">License</Link>
+                <Link to="/licence" className="text-gray-400 hover:text-white">License</Link>
               </li>
               <li className="mb-6">
                 <Link to="/terms" className="text-gray-400 hover:text-white">Terms & Conditions</Link>

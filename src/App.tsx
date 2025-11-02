@@ -17,6 +17,7 @@ import Update from "./Pages/FutureUpdate";
 import FutureUpdate from "./Pages/FutureUpdate";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/TermsAndCondition";
+import Licence from "./Pages/Licence";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/update" element={<Update/>} />
         <Route path="/privacy" element={<PrivacyPolicy/>} />
         <Route path="/terms" element={<TermsAndCondition/>} />
+        <Route path="/licence" element={<Licence/>} />
         
         <Route path="*" element={<NotFound />} />
       </Routes>

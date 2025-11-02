@@ -29,7 +29,7 @@ message: "We will fix reported issues for a smoother experience."
 
 const FutureUpdate = () => {
     return (
-        <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8"> <div className="max-w-7xl mx-auto text-center mb-12"> <h1 className="text-4xl font-bold text-gray-900 mb-4">Project Upgrades</h1> <p className="text-lg text-gray-600">Check out what’s new in the latest edition of our project.</p> </div>
+        <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8"> <div className="max-w-7xl mx-auto text-center mb-12"> <h1 className="text-4xl font-bold text-gray-900 mb-4">Project Upgrades</h1> <p className="text-lg text-gray-600">Check out what will be new in the latest edition of our project.</p> </div>
 
 ```
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">  
